@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 20 18:04:10 IDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>24 seconds (24958 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 1, Fish, Fish</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 1, Dogs, Dogs</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 1, Cats, Cats</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 1, Reptiles, Reptiles</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 1, Birds, Birds</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 2, Fish, Fish</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 2, Dogs, Dogs</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 2, Cats, Cats</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 2, Reptiles, Reptiles</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 2, Birds, Birds</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 3, Fish, Fish</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 3, Dogs, Dogs</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 3, Cats, Cats</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 3, Reptiles, Reptiles</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.lnk_test.animal_link()'><b>animal_link</b><br>Test class: tests.lnk_test<br>Parameters: 3, Birds, Birds</td>
+<td></td>
+<td>0</td>
+<td>tests.lnk_test@27a5328c</td></tr>
+<tr>
+<td title='tests.log_test.correct_information()'><b>correct_information</b><br>Test class: tests.log_test<br>Parameters: ronjgold, GR4892isr, Welcome Ron!</td>
+<td></td>
+<td>1</td>
+<td>tests.log_test@841e575</td></tr>
+<tr>
+<td title='tests.log_test.password_only()'><b>password_only</b><br>Test class: tests.log_test<br>Parameters: RG4892isr</td>
+<td></td>
+<td>10</td>
+<td>tests.log_test@841e575</td></tr>
+<tr>
+<td title='tests.log_test.wrong_data()'><b>wrong_data</b><br>Test class: tests.log_test<br>Parameters: ronjgold, rg4892isr</td>
+<td></td>
+<td>1</td>
+<td>tests.log_test@841e575</td></tr>
+<tr>
+<td title='tests.log_test.wrong_data()'><b>wrong_data</b><br>Test class: tests.log_test<br>Parameters: RONJGOLD, RG4892isr</td>
+<td></td>
+<td>0</td>
+<td>tests.log_test@841e575</td></tr>
+</table><p>
+</body>
+</html>
